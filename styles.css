@@ -47,7 +47,7 @@ body {
     border-bottom: none; }
 
 /* line 50, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
-.table #experience article,
+#experience article,
 #projects article {
   margin-bottom: 3ex;
   border-left: 5px solid #ddd;
@@ -56,5 +56,10 @@ body {
 /* line 56, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
 .left {
   float: left; }
+
+@media print {
+  /* line 61, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
+  article {
+    page-break-inside: avoid; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -46,7 +46,7 @@ body {
     }
 }
 
-.table #experience article,
+#experience article,
 #projects article {
     margin-bottom: 3ex;
     border-left: 5px solid #ddd;
@@ -55,4 +55,10 @@ body {
 
 .left {
     float: left;
+}
+
+@media print {
+    article {
+        page-break-inside: avoid;
+    }
 }
