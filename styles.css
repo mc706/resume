@@ -46,19 +46,20 @@ body {
   .table tbody tr:last-child td {
     border-bottom: none; }
 
-/* line 50, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
+/* line 52, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
 #experience article,
-#projects article {
+#projects article,
+#awards article {
   margin-bottom: 3ex;
   border-left: 5px solid #ddd;
   padding-left: 10px; }
 
-/* line 56, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
+/* line 59, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
 .left {
   float: left; }
 
 @media print {
-  /* line 61, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
+  /* line 64, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
   article {
     page-break-inside: avoid; } }
 

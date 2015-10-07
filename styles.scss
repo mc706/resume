@@ -46,11 +46,14 @@ body {
     }
 }
 
-#experience article,
-#projects article {
-    margin-bottom: 3ex;
-    border-left: 5px solid #ddd;
-    padding-left: 10px;
+#experience,
+#projects,
+#awards {
+    article {
+        margin-bottom: 3ex;
+        border-left: 5px solid #ddd;
+        padding-left: 10px;
+    }
 }
 
 .left {
