@@ -1,0 +1,60 @@
+/* line 2, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica; }
+
+/* line 8, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
+.container {
+  margin: 0 auto;
+  padding: 25px; }
+
+/* line 13, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
+.center {
+  width: 100%;
+  text-align: center; }
+
+/* line 18, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
+.right {
+  float: right; }
+
+/* line 22, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
+.clearfix {
+  clear: both; }
+
+/* line 26, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
+.strong {
+  font-weight: bold; }
+
+/* line 30, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
+.links a {
+  display: block;
+  text-align: right; }
+
+/* line 35, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
+.table {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center; }
+  /* line 41, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
+  .table thead th,
+  .table tbody td {
+    border-bottom: 1px solid #ccc; }
+  /* line 44, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
+  .table tbody tr:last-child td {
+    border-bottom: none; }
+
+/* line 50, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
+.table #experience article,
+#projects article {
+  margin-bottom: 3ex;
+  border-left: 5px solid #ddd;
+  padding-left: 10px; }
+
+/* line 56, /Users/ryan.mcdevitt/Development/Personal/resume/styles.scss */
+.left {
+  float: left; }
+
+/*# sourceMappingURL=styles.css.map */
